@@ -3,16 +3,11 @@
 # SPDX-License-Identifier: BSD-3-Clause
 import sys
 
-def tonum(s):
-    try:
-        return int(s)
-    except ValueError:
-        return float(s)
-
-
 x = 0
 for line in sys.stdin:
-    for line in sys.stdin:
-    x += tonum(line.rstrip())
+    try:
+        x += int(line)
+    except ValueError:
+        x += float(line)
 
 print(x)
