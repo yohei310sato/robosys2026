@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2026 Yohei Sato
+# SPDX-License-Identifier: BSD-3-Clause
+
 import sys
 import re
 
