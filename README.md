@@ -1,4 +1,4 @@
-# robosys
+# robosysコマンド
 
 ![test](https://github.com/yohei310sato/robosys2026/actions/workflows/test.yml/badge.svg)
 
