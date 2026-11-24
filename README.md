@@ -10,7 +10,8 @@
 
 ```bash
 $ git clone https://github.com/yohei310sato/robosys2026.git
-$cd robosys2026$ chmod +x robosys
+$ cd robosys2026
+$ chmod +x robosys
 ```
 
 ## 使い方
