@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+import sys
+import re
+
+def main():
+    pattern = re.compile(r'-?\d+(?:\.\d+)?')
+
+    for line in sys.stdin:
+        matches = pattern.findall(line)
+
+        if matches:
+            print(" ".join(matches))
+
+if __name__ == '__main__':
+    main()
